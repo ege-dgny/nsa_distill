@@ -1,0 +1,53 @@
+{
+  "teacher_dir": "/home/ege/icra/nsa-distill/checkpoints/teacher_libero_spatial",
+  "student_ckpt": null,
+  "student_rank": null,
+  "task_suite": "libero_spatial",
+  "num_tasks": 5,
+  "num_trials_per_task": 20,
+  "total_episodes": 100,
+  "total_successes": 100,
+  "success_rate": 1.0,
+  "per_task": [
+    {
+      "task_id": 0,
+      "task_description": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "episodes": 20,
+      "successes": 20,
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 1,
+      "task_description": "pick up the black bowl next to the ramekin and place it on the plate",
+      "episodes": 20,
+      "successes": 20,
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 2,
+      "task_description": "pick up the black bowl from table center and place it on the plate",
+      "episodes": 20,
+      "successes": 20,
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 3,
+      "task_description": "pick up the black bowl on the cookie box and place it on the plate",
+      "episodes": 20,
+      "successes": 20,
+      "success_rate": 1.0
+    },
+    {
+      "task_id": 4,
+      "task_description": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "episodes": 20,
+      "successes": 20,
+      "success_rate": 1.0
+    }
+  ],
+  "teacher_head_params": 151117831,
+  "student_head_params": null,
+  "compression_ratio": null,
+  "inference_hz": 14.923196826577731,
+  "seed": 7
+}

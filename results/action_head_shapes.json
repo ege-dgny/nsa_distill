@@ -1,0 +1,46 @@
+{
+  "rank": 128,
+  "nsa_targets": [
+    "model.fc1",
+    "model.mlp_resnet_blocks.0.ffn.1",
+    "model.mlp_resnet_blocks.1.ffn.1"
+  ],
+  "teacher_action_head_params": 151035911,
+  "teacher_target_params": 151007232,
+  "student_target_params": 6303744,
+  "compression_ratio": 23.955165692007796,
+  "linears": [
+    {
+      "name": "model.fc1",
+      "in_features": 28672,
+      "out_features": 4096,
+      "bias": true,
+      "params": 117444608,
+      "is_nsa_target": true
+    },
+    {
+      "name": "model.mlp_resnet_blocks.0.ffn.1",
+      "in_features": 4096,
+      "out_features": 4096,
+      "bias": true,
+      "params": 16781312,
+      "is_nsa_target": true
+    },
+    {
+      "name": "model.mlp_resnet_blocks.1.ffn.1",
+      "in_features": 4096,
+      "out_features": 4096,
+      "bias": true,
+      "params": 16781312,
+      "is_nsa_target": true
+    },
+    {
+      "name": "model.fc2",
+      "in_features": 4096,
+      "out_features": 7,
+      "bias": true,
+      "params": 28679,
+      "is_nsa_target": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "teacher": {
+    "action_head_params": 151117831,
+    "success_rate": 1.0,
+    "per_task": [
+      {
+        "task_id": 0,
+        "task_description": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 1,
+        "task_description": "pick up the black bowl next to the ramekin and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 2,
+        "task_description": "pick up the black bowl from table center and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 3,
+        "task_description": "pick up the black bowl on the cookie box and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 4,
+        "task_description": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      }
+    ],
+    "inference_hz": 14.923196826577731,
+    "num_rollouts": 100
+  },
+  "student_r128": {
+    "action_head_params": 6414343,
+    "success_rate": 1.0,
+    "per_task": [
+      {
+        "task_id": 0,
+        "task_description": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 1,
+        "task_description": "pick up the black bowl next to the ramekin and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 2,
+        "task_description": "pick up the black bowl from table center and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 3,
+        "task_description": "pick up the black bowl on the cookie box and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 4,
+        "task_description": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      }
+    ],
+    "inference_hz": 15.976374658065037,
+    "num_rollouts": 100,
+    "compression_ratio": 23.55936235402441,
+    "student_ckpt": "/home/ege/icra/nsa-distill/checkpoints/student_runs/nsa_r128_a0.1_libero_spatial/student_r128_final.pt"
+  },
+  "delta_success_rate_pp": 0.0,
+  "student_r128_no_null": {
+    "action_head_params": 6414343,
+    "success_rate": 1.0,
+    "per_task": [
+      {
+        "task_id": 0,
+        "task_description": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 1,
+        "task_description": "pick up the black bowl next to the ramekin and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 2,
+        "task_description": "pick up the black bowl from table center and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 3,
+        "task_description": "pick up the black bowl on the cookie box and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      },
+      {
+        "task_id": 4,
+        "task_description": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "episodes": 20,
+        "successes": 20,
+        "success_rate": 1.0
+      }
+    ],
+    "inference_hz": 14.672532222396939,
+    "num_rollouts": 100,
+    "student_ckpt": "/home/ege/icra/nsa-distill/checkpoints/student_runs/nsa_r128_a0.0_libero_spatial/student_r128_final.pt"
+  },
+  "ablation_delta_pp_wrt_with_null": 0.0
+}
